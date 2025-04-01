@@ -9,6 +9,7 @@ class Notes {
 			for (int j = i + 1; j < testArray.length; j++) {
 				if (testArray[j] < testArray[smallestIndex]) {
 					smallestIndex = j;
+					
 				}
 			}
 			//swap
